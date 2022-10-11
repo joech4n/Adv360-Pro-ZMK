@@ -1,7 +1,5 @@
 FROM zmkfirmware/zmk-build-arm:stable
 
-RUN mkdir -p /app/firmware
-
 WORKDIR /app
 
 COPY config/west.yml config/west.yml
